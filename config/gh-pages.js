@@ -136,4 +136,33 @@ const stylePresets = [
   },
 ];
 
-export { mapboxGlAccessToken, stylePresets };
+const gazetteer = {
+  Locations: [
+    {
+      'Dogwood Dell, Richmond, VA': {
+        zoom: 15,
+        center: { lng: -77.4838, lat: 37.5407 },
+      },
+    },
+    {
+      'Belle Isle, Richmond, VA': {
+        zoom: 15,
+        center: { lng: -77.4533, lat: 37.5297 },
+      },
+    },
+    {
+      'San Francisco, CA': {
+        zoom: 18,
+        center: { lng: -122.4193, lat: 37.7648 },
+      },
+    },
+    {
+      'Washington DC': {
+        zoom: 12,
+        center: { lng: -77.0435, lat: 38.9098 },
+      },
+    },
+  ],
+};
+
+export { gazeteer, mapboxGlAccessToken, stylePresets };
