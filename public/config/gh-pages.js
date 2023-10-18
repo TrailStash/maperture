@@ -15,6 +15,12 @@ const stylePresets = [
     url: 'https://trailstash.gitlab.io/openmaptiles-style/style.json',
   },
   {
+    id: 'osm-liberty',
+    name: 'OSM Liberty',
+    type: 'maplibre-gl',
+    url: 'https://maputnik.github.io/osm-liberty/style.json',
+  },
+  {
     id: 'mapbox-streets',
     name: 'Mapbox Streets',
     type: 'mapbox-gl',
