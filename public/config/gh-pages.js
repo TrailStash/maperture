@@ -50,7 +50,7 @@ const stylePresets = [
     id: 'stamen-toner',
     name: 'Stamen Toner',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -58,7 +58,7 @@ const stylePresets = [
     id: 'stamen-toner-lite',
     name: 'Stamen Toner (Lite)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -66,7 +66,7 @@ const stylePresets = [
     id: 'stamen-toner-hybrid',
     name: 'Stamen Toner (Hybrid)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_hybrid/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -74,7 +74,7 @@ const stylePresets = [
     id: 'stamen-toner-labels',
     name: 'Stamen Toner (Labels)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -82,7 +82,7 @@ const stylePresets = [
     id: 'stamen-toner-lines',
     name: 'Stamen Toner (Lines)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lines/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -90,7 +90,7 @@ const stylePresets = [
     id: 'stamen-toner-background',
     name: 'Stamen Toner (Background)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -98,7 +98,7 @@ const stylePresets = [
     id: 'stamen-terrain',
     name: 'Stamen Terrain',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -106,7 +106,7 @@ const stylePresets = [
     id: 'stamen-terrain-labels',
     name: 'Stamen Terrain (Labels)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/terrain-labels/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_labels/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -114,7 +114,7 @@ const stylePresets = [
     id: 'stamen-terrain-lines',
     name: 'Stamen Terrain (Lines)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/terrain-lines/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -122,7 +122,7 @@ const stylePresets = [
     id: 'stamen-terrain-background',
     name: 'Stamen Terrain (Background)',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
@@ -130,7 +130,7 @@ const stylePresets = [
     id: 'stamen-watercolor',
     name: 'Stamen Watercolor',
     type: 'leaflet',
-    url: 'https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png',
+    url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.png',
     attribution:
       'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
   },
