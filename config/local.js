@@ -165,4 +165,4 @@ const gazetteer = {
   ],
 };
 
-export { gazeteer, mapboxGlAccessToken, stylePresets };
+export { gazetteer, mapboxGlAccessToken, stylePresets };
