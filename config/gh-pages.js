@@ -3,22 +3,36 @@ const mapboxGlAccessToken =
 
 const stylePresets = [
   {
+    id: 'opentrailstash',
+    name: 'OpenTrailStash',
+    type: 'maplibre-gl',
+    url: 'https://open.trailsta.sh/style.json',
+  },
+  {
     id: 'trailstash-liberty',
     name: 'TrailStash Liberty',
     type: 'maplibre-gl',
     url: 'https://trailstash.gitlab.io/liberty/style.json',
   },
   {
-    id: 'omt-osm',
-    name: 'OpenMapTiles OSM',
-    type: 'maplibre-gl',
-    url: 'https://trailstash.gitlab.io/openmaptiles-style/style.json',
-  },
-  {
     id: 'osm-liberty',
     name: 'OSM Liberty',
     type: 'maplibre-gl',
     url: 'https://trailstash.github.io/osm-liberty/style.json',
+  },
+  {
+    id: 'openstreetmap',
+    name: 'OpenStreetMap',
+    type: 'leaflet',
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  },
+  {
+    id: 'omt-osm',
+    name: 'OpenMapTiles OSM',
+    type: 'maplibre-gl',
+    url: 'https://trailstash.gitlab.io/openmaptiles-style/style.json',
   },
   {
     id: 'mapbox-streets',
@@ -43,14 +57,6 @@ const stylePresets = [
     name: 'Mapbox Dark',
     type: 'mapbox-gl',
     url: 'mapbox://styles/mapbox/dark-v10',
-  },
-  {
-    id: 'openstreetmap',
-    name: 'OpenStreetMap',
-    type: 'leaflet',
-    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   },
   {
     id: 'stamen-toner',
