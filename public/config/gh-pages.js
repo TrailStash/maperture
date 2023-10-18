@@ -1,7 +1,19 @@
 const mapboxGlAccessToken =
-  'pk.eyJ1Ijoic3RhbWVuIiwiYSI6ImNreWM1emM2NjAyNTgyb25kc2o5ZG1iMmoifQ.o2QhFbe03ilcplg9sAhYZQ';
+  'pk.eyJ1IjoiZHNjaGVwIiwiYSI6ImNsbnV6c2E2czBidmwyaXQ5cjNueGZlN2wifQ.Jw3qF_Dy3DPogIz3_iJU9Q';
 
 const stylePresets = [
+  {
+    id: 'trailstash-liberty',
+    name: 'TrailStash Liberty',
+    type: 'maplibre-gl',
+    url: 'https://trailstash.gitlab.io/liberty/style.json',
+  },
+  {
+    id: 'omt-osm',
+    name: 'OpenMapTiles OSM',
+    type: 'maplibre-gl',
+    url: 'https://trailstash.gitlab.io/openmaptiles-style/style.json',
+  },
   {
     id: 'mapbox-streets',
     name: 'Mapbox Streets',
