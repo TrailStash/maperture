@@ -18,7 +18,7 @@ const stylePresets = [
     id: 'osm-liberty',
     name: 'OSM Liberty',
     type: 'maplibre-gl',
-    url: 'https://maputnik.github.io/osm-liberty/style.json',
+    url: 'https://trailstash.github.io/osm-liberty/style.json',
   },
   {
     id: 'mapbox-streets',
