@@ -1,5 +1,5 @@
 const mapboxGlAccessToken =
-  'pk.eyJ1IjoiZHNjaGVwIiwiYSI6ImNsbnV6c2E2czBidmwyaXQ5cjNueGZlN2wifQ.Jw3qF_Dy3DPogIz3_iJU9Q';
+  'pk.eyJ1IjoiZHNjaGVwIiwiYSI6ImNsbnYwY2VyMTBmN2QycXBlcXgyZnN5ZXMifQ.c_JlxQdUtn13eicLZOwKmg';
 
 const stylePresets = [
   {
